@@ -16,7 +16,8 @@ public class App {
         .setListener(new RtmClientAdapter() {
           @Override
           public void onConnectingError(RtmClient client, Exception ex) {
-            System.out.println("Failed to connect: " + ex.getMessage());
+            String msg = String.format("Failed to connect to '%s': %s", endpoint, ex.getMessage());
+            System.out.println(msg);
           }
 
           @Override
