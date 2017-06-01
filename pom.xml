@@ -10,8 +10,8 @@
   <dependencies>
     <dependency>
       <groupId>com.satori</groupId>
-      <artifactId>satori-sdk-java</artifactId>
-      <version>1.0.1</version>
+      <artifactId>satori-rtm-sdk-jackson2</artifactId>
+      <version>1.0.3</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
